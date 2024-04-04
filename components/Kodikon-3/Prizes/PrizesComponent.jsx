@@ -6,8 +6,8 @@ import Image from 'next/image'
 const PrizeCard = ({ source, index }) => {
   return (
     <div className=" h-[200px] w-[200px]"
-      data-aos="zoom-in"
-      data-aos-duration="1500"
+      // data-aos="zoom-in"
+      // data-aos-duration="1500"
     // data-aos-delay={`${(index + 1) * 100}`}
     >
       <Image src={source} alt={`${index + 1}`} height={800} width={800} className=' bg-transparent' />

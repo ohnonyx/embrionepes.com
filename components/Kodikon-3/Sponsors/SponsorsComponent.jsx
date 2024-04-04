@@ -5,9 +5,10 @@ import { sponsors } from '@/constants'
 const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorWebsiteURL, index }) => {
   return (
     <div className="flex flex-col items-center justify-center p-2  h-100 w-100     "
-    data-aos="zoom-in-up"
-        data-aos-duration="500"
-        data-aos-delay={`${(index + 1) * 200}`}>
+    // data-aos="zoom-in-up"
+        // data-aos-duration="500"
+        // data-aos-delay={`${(index + 1) * 200}`}
+        >
       <Image src={sponsorImageURL} alt={sponsorName} height={500} width={500} className = 'rounded-md' />
     </div>
   )
